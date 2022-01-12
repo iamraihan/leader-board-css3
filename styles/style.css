@@ -37,7 +37,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #562EFF;
+    /* background: #562EFF; */
     width: 920px;
     height: 94px;
     margin: 0 auto;
@@ -182,7 +182,7 @@ nav{
  -------------------*/
  /* Mobile Devices */
  @media only screen and (max-width:688px){
-    .container{
+    .container, .menu-container{
         width: 100%;
     } 
     .players, .blogs, .courses{
@@ -190,6 +190,9 @@ nav{
          flex-direction: column;
          justify-content: center;
          justify-items: center;
+     }
+     .logo-title{
+         display: none;
      }
      .player{
          flex-direction: column;
@@ -199,10 +202,11 @@ nav{
          margin-bottom: 10px;
      }
      
+     
  }
  /* Tablet Devices */
  @media only screen and (min-width:688px) and (max-width:992px) {
-     .container{
+     .container, .menu-container{
          width: 100%;
      }
      .players, .blogs, .courses{
