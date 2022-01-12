@@ -118,7 +118,11 @@ hr{
     Height: 29.38px;
     color: #FF4A60;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
 
 /*--------------------
  Media Queries 
